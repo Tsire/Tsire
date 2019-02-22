@@ -1,0 +1,571 @@
+/* All pages should have 0 and 0 padding */
+*{
+	margin:0;
+	padding:0;
+	font-family:georgia;
+	box-sizing: border-box;}
+    
+}	
+.nav{
+width:100%;
+}	
+
+ul     {background-color:rgba(255,255,255,0.6);
+	list-style-type:none;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	overflow:hidden;
+    position: fixed;
+    z-index:3;
+	min-height:10%;
+     }
+
+
+li     {float:left;
+        }
+
+
+li a,.btn{display:inline-block;
+	text-decoration:none;
+	padding:31px;
+	text-align:center;
+	color:black;
+	}
+
+
+li a:hover:not(.active){
+    background-color:none;
+			color:669900;
+            border-bottom: 5px solid black; }
+
+.active{background-color:black;
+		color:669900;
+      }
+/* page logo */
+.logo  {
+	width:50%;
+	border-radius:45%;
+}
+.mySlides {display: none;
+}
+
+
+.pic{vertical-align: middle ;
+    opacity: 0.6;
+    }
+
+.slideshow-container {
+    width:100%;
+  }
+
+.text{
+    color:black;
+    font-size: 400%;
+    padding: 3px 2px;
+    position: absolute;
+    top:40%;
+    width:100%;
+    text-align: center;
+}
+
+
+.fade{
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    
+    
+}
+@-webkit-keyframes fade{
+    from{opacity: .6}
+    to{opacity: 1}
+    
+}
+
+@keyframes fade {
+    from{opacity: .6}
+    to{opacity: 1}
+}
+
+
+/* knowmore button on home page */
+
+.knowmore{
+	 color:black;
+	background-color:669900;
+	font-size:20px;
+	border-radius:1px 20px 1px 20px;
+	border: none;
+	padding:0.7%;
+	margin:0%;
+	text-decoration:none;}
+	
+	.knowmore:hover{
+	background-color:669900;	
+	transition:1s;
+	opacity:0.8;
+	}
+.btn {padding:2%;
+	width:100%;
+}
+
+	/* Index page styling*/
+index-header{clear: both;
+}
+.index-header .article {float:left;
+	width:50%;
+padding-top: 5%;
+	}
+	
+.index-header .article h1{
+	color:black;
+	font-size:60px;
+	text-align:center;
+	padding:3%;}
+
+.index-header .article h2{
+	color:black;
+	font-size:30px;
+	text-align:center;
+	padding:3%;}	
+.index-header .article p {font-size:20px;
+	text-align:center;
+	line-height:45px;
+	padding:9.4%;
+}
+
+.index-header .article img {border-radius:50%;
+    border: 1px solid grey;
+  width:80.2%;
+	padding:4%;}
+
+	/* Skills styling */
+.skills-index h2  {color:black;
+	text-align:center;
+	font-size:60px;
+	}
+
+.skills-index{ clear:both;
+	padding-top:5%;
+	padding-bottom:2%;
+	}
+
+ .skill{
+	width:55%;
+  	padding-bottom:2%;
+	min-height:20%;
+	font-size:20px;
+	padding-top:3%
+    padding-left:2%;}
+
+.sbar{width:100%;
+background-color: gray;
+ }
+
+.bar{text-align: right;
+padding: 4px;
+color:white;
+background-color: darkgreen;
+width: 1%;
+height: 30px;}
+
+.p {width: 80%; 
+    background-color: black;
+     
+}
+
+.gm {width: 70%; 
+    background-color: black;}
+
+.em {width: 66%; 
+    background-color: black;}
+
+.gis {width: 90%; 
+    background-color: black;}
+
+
+	
+
+/* Styling video */
+
+.video{	
+	width:40%;
+	padding:1%;
+	min-height:60%;}
+
+.vid hr{width:50%;
+		}
+.vid h2 {
+	font-size:200%;
+	clear:both;}
+	
+/* top botton*/
+	
+.top-index {
+			padding:2%;
+			text-align:center;
+			clear:both;
+            }
+.bounce { -moz-animation:bounce 10s infinite;
+    -webkit-animation:bounce 10s infinite;
+    animation: bounce 10s infinite;
+    
+}
+
+@keyframes bounce {0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+    } 
+    40% {
+        transform: translateY(-30px);
+    }
+    
+    60% {
+        transform: translateY(-15px);
+    }
+}
+.top-index h1 a{font-size:130%;
+				text-decoration:none;
+				border-radius:10%;
+				color:black;
+				width:100%;
+				padding:1%;
+				margin:2%;
+					}
+.top-index h1 a:hover {color:black;
+						;
+}
+.top-index:active {transform: translateY(7px);
+                    }
+	
+	/* footer starts */
+	
+.footer{clear:both;
+    
+}
+
+.foot{  
+	background-color:rgba(102,153,0,0.4);
+	padding:2%;
+	text-align:center;
+    
+}
+	
+.footer .fa {color:669900;}
+
+
+.footer .fa:hover {color:black;
+cursor: pointer;}
+
+
+		/* Contact page starts here */
+
+section.contact-me{
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/cont.jpg");
+				padding-bottom: 45%;
+                padding-top: 8%;
+				background-repeat:no-repeat;
+				background-attachment:fixed;
+				background-position:center;
+				background-size:100%;
+color: white;}
+
+.two{text-align:left;
+	float:left;		
+	width:46%;
+    padding-left:2%;
+    padding-top: 2%;
+}
+.two .fa {text-align:center;
+		font-size:25px;
+		color:669900;
+		padding:5%;
+		}
+		
+	/* form */
+	
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid 669900;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color:669900;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset] {
+    width: 30%;
+    background-color:669900;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+	 background-color: black;
+	color :white;
+    
+}
+input[type=reset]:hover {
+    background-color: black;
+	color :white;
+}
+fieldset{ border: none;
+	border-radius: 25px;
+	width:90%; 
+	text-align:left;
+	padding:10%;
+	background-color:rgba(0,0,0,0.4);
+	
+}
+
+
+/* map */
+.map{clear:both;}
+iframe {width:100%;}
+
+/* About page */
+
+.about-header {background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/html.jpeg");
+				padding:10%;
+                padding-bottom:10%;
+				background-repeat:no-repeat;
+				background-attachment:fixed;
+				background-position:center;
+				background-size:100%;
+                }
+				
+.about-head h1 {color:white;
+				font-size:60px;
+				text-align:center;
+				padding:5%;}
+				
+/* About page contact us button */
+
+.contact-us{
+	 color:black;
+	background-color:669900;
+	font-size:20px;
+	border-radius:5px;
+	padding:1%;
+	opacity:0.8;
+	text-decoration:none;
+    border-radius:1px 20px 1px 20px;}
+
+	.contact-us:hover{
+	background-color:669900;	
+	transition:1s;
+	opacity:0.8;
+	}
+	
+.index-btn {
+	width:100%;
+	text-align:center;}	
+
+/* About page top part */	
+.about-section {background-color:rgba(102,153,0,0.4);}
+	
+.about-section p{font-size:20px;
+	text-align:center;
+	line-height:35px;
+	padding-bottom:8%;}
+ 
+.about-section img{border-radius:50%;
+padding :1%;}
+
+.about-cv{
+	 color:black;
+	background-color:669900;
+	font-size:20px;
+	border-radius:5px;
+	padding:1%;
+	
+	opacity:0.8;
+	margin:10%;
+	text-decoration:none;}
+	
+	.about-cv:hover{
+	background-color:rgba(102,153,0,0.8);	
+	transition:1s;
+	opacity:0.8;
+	border:2px solid 669900; }
+.about-bt {padding:2%;
+	width:100%;}
+
+.about-container {float:left;
+	width:25%;
+	padding:3%;}
+.about-container dt{padding:5%;
+font-size:150%;
+color:black;}
+
+.about-container dd {line-height:150%;
+font-size:20px;
+padding:1%;}
+
+.about-container .fa {font-size:35px;
+		color:669900;
+		padding:10%;
+		background-color:black;
+		border-radius:50%;
+		}
+
+	/* Gallery top page */
+.gall-container{background-color:black;}
+	
+.header-gallery {background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/comp.jpeg");
+		background-attachment:fixed;
+		background-size:cover;
+		background-repeat: no-repeat;
+		padding:10%;
+        padding-bottom:10%;
+		text-align:center;}
+
+		
+.gallery-head h1 {color:white;
+					font-size:60px;
+					text-align:center;
+					padding:5%;
+}
+
+
+	/* Gallery contact=button */
+	
+.gallery-us	{ color:black;
+	background-color:669900;
+	font-size:20px;
+	border-radius:5px;
+	padding:1%;
+	border-radius:1px 20px 1px 20px;
+	opacity:0.8;
+	text-decoration:none;
+	color:white;}
+	
+.gallery-us:hover{
+	background-color:669900;	
+	transition:5s;
+	opacity:0.8;
+	}
+	
+.gallery-btn {
+	width:90%;
+	
+	}
+
+	/* Gallery images start */
+	
+	div.gallery {
+  
+    float: left;
+    width: 28%;
+ padding-bottom:1%;
+        margin: 2%;
+}
+.gall-container{ background-color:none; 
+      }
+
+.gallery {color: #777;
+
+}
+div.gallery img:hover {
+    border: 3px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 55%;
+	
+	 margin:2%;
+}
+
+div.desc {
+    padding: 30px;
+  
+    text-align: center;
+  
+}
+	
+	/* Social media top*/
+	
+.social-header { background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/cbg.jfif");
+		background-attachment:fixed;
+		background-size:cover;
+		background-repeat: no-repeat;
+		padding:10%;
+        
+        padding-bottom:10%;
+		text-align:center;}
+		
+.social-header h1 {color:white;
+				font-size:60px;
+				text-align:center;
+				padding:5%;}
+
+.social-icons {padding:7%;}
+		
+.social-icons .fa{font-size:300%;
+					color:black;
+					margin:2%;
+					text-align:center;}	
+					
+.social-icons .fa:hover {color:669900;
+						cursor: pointer;}
+table {
+   
+  
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 30px;}
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 30px;}
+}						
+
+table {padding:2%;
+        color: black;}
+					
+table fa {font-size:40%;}
+table th {font-size:30px;}
+	
+table td { font-size:20px; padding:1%; line-height:30px;
+		width:26%;background-color:rgba(102,153,0,0.3);}
+		
+table td:hover{background-color: rgba(102,153,0,0.5);
+						cursor: pointer;}
+						
+#data {background-color: rgba(102,153,0,0.5);}					
+@media screen and (max-width:800px)
+
+{li{float:none;
+	width:100%;
+	text-align:center;
+	 text-decoration: none;
+	}
+	
+    .books{float:left;
+    width:45%;
+    background-color: black;}
